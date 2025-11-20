@@ -1,0 +1,53 @@
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.success-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.success-card h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.success-card p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.btn-logout {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.btn-logout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+  background: linear-gradient(135deg, #c82333 0%, #a02622 100%);
+}
